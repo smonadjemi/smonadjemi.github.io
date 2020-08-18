@@ -15,7 +15,6 @@ function Publication(props){
             <div>{props.publication.title}</div>
             <div className='text-muted'>{props.publication.authors}</div>
             <div className='text-muted'><em>{props.publication.venue}</em></div>
-            <div>Links</div>
         </Col>
     </Row>
 </>
