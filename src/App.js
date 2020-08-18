@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <NavBar></NavBar>
-      <About></About>
+      <About id='about'></About>
       <Publications></Publications>
       
       

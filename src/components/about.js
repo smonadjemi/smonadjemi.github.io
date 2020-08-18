@@ -10,7 +10,7 @@ import { faGraduationCap } from '@fortawesome/free-solid-svg-icons'
 function About() {
     return (
         <>
-            <Container>
+            <Container id='about'>
                 <Row className='resume-comp'>
                     <h3 class="mb-0">Shayan Monadjemi</h3>
                     <code>monadjemi [at] wustl [dot] edu</code>
