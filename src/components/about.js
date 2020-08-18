@@ -16,7 +16,14 @@ function About() {
                     <code>monadjemi [at] wustl [dot] edu</code>
                 </Row>
                 <Row className='resume-comp'>
-                    <Col className='padding' lg={8}>
+
+                    <Col className='profile-img-container' lg={{span:4, order: 2}}>
+                        <Row className='padding profile-img'>
+                            <Image className='profile-img' src={img}></Image>
+                        </Row>
+                    </Col>
+
+                    <Col className='padding' lg={{span:8, order: 1}}>
                             <p class="mb-5">I am a Ph.D. candidate in the <a href="http://visualdata.wustl.edu/" target="_blank">Visual Data Analysis Group</a> at Washington University in St. Louis. My research interests revolve around Visual Analytics and Machine Learning. My co-advisors are Drs. Alvitta Ottley and <a href="https://www.cse.wustl.edu/~garnett/" target="_blank">Roman Garnett</a>.</p>
                             <p class="mb-5">Before joining WashU, I attended the University of Texas in Dallas to study Computer Science with a minor in Mathematics.</p>
 
@@ -31,11 +38,6 @@ function About() {
                                 <FontAwesomeIcon icon={faGraduationCap}></FontAwesomeIcon>
                             </a>
 
-                    </Col>
-                    <Col lg={4}>
-                        <Row className='padding profile-img'>
-                            <Image className='profile-img' src={img}></Image>
-                        </Row>
                     </Col>
                 </Row>
                 <hr></hr>
