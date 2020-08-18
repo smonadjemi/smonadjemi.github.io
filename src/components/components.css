@@ -1,0 +1,50 @@
+.nav-center{
+    background-color: #414040;
+    color: white;
+}
+
+.profile-img {
+    height: 100%;
+}
+
+.resume-comp {
+    margin: 20px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.padding {
+    padding: 10px;
+}
+
+Code {
+    color: inherit;
+    width: 100%;
+
+}
+
+.social {
+    padding: 5px;
+    margin: 1px;
+    margin-right: 5px;
+    background-color: #414040;
+    border-radius: 100%;
+    color: white;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+}
+
+.social:hover {
+    color: lightblue;
+}
+
+
+.center-content {
+    text-align: center;
+}
+
+hr {
+    margin-bottom: 0px;
+}
