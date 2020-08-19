@@ -12,7 +12,7 @@ function Publications(){
     var json = require('../data.json');
     return(
 <>
-<Container id='publications'>
+<Container className='section' id='publications'>
         <Row>
             <Col lg={12}>
                 <Row className='resume-comp'>
