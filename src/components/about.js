@@ -34,7 +34,7 @@ function About() {
                                 <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
                             </a>
 
-                            <a className='social' href="https://scholar.google.com" target="_blank">
+                            <a className='social' href="https://scholar.google.com/citations?user=OR02C9QAAAAJ&hl=en&oi=ao" target="_blank">
                                 <FontAwesomeIcon icon={faGraduationCap}></FontAwesomeIcon>
                             </a>
 

@@ -2,6 +2,12 @@ import {Navbar, Button, FormControl, Nav, Form, NavDropdown, Container} from 're
 import React from 'react';
 import './components.css'
 
+/**
+ * 
+       <Nav.Link href="#teaching">Teaching</Nav.Link>
+      <Nav.Link href='#cv'>CV</Nav.Link>
+ */
+
 function NavBar(){
     return(
 <>
@@ -11,8 +17,7 @@ function NavBar(){
   <Nav className="justify-content-center m-auto" activeKey="/home">
       <Nav.Link href="#about">About</Nav.Link>
       <Nav.Link href="#publications">Publications</Nav.Link>
-      <Nav.Link href="#teaching">Teaching</Nav.Link>
-      <Nav.Link href='#cv'>CV</Nav.Link>
+
   </Nav>
   </Navbar.Collapse>
 </Navbar>

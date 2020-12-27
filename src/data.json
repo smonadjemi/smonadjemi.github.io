@@ -1,7 +1,24 @@
-{"publications": [{"title": "Competing Models: Inferring Exploration Patterns and Information Relevance via Bayesian Model Selection", 
-                    "authors": "Shayan Monadjemi, Roman Garnett, Alvitta Ottley",
-                    "venue": "TVCG VIS 2020"},
+{
+    "publications": [
+        {
+            "title": "ARRT Development for the Upcoming Human Exploration Missions",
+            "authors": "Shaowen Hu, Shayan Monadjemi, Janet Barzilla, E. Semones",
+            "venue": "Space Weather. 2020."
+        },
 
-                    {"title": "DRAGON-V: Detection and Recognition of Airplane Goals with Navigational Visualization", 
-                        "authors": "Christabel Wayllace, Sunwoo Ha, Yuchen Han, Jiaming Hu, Shayan Monadjemi, William Yeoh, Alvitta Ottley",
-                        "venue": "AAAI, 2020"}]}
+        {"title": "Active Visual Analytics: Assisted Data Discovery in Interactive Visualizations via Active Search", 
+            "authors": "Shayan Monadjemi, Quan Nguyen, Henry Chai, Roman Garnett, Alvitta Ottley",
+            "venue": "arXiv preprint. 2020."},
+
+        {
+            "title": "Competing Models: Inferring Exploration Patterns and Information Relevance via Bayesian Model Selection",
+            "authors": "Shayan Monadjemi, Roman Garnett, Alvitta Ottley",
+            "venue": "IEEE Tranactions on Visualization and Computer Graphics (TVCG). 2020."
+        },
+        {
+            "title": "DRAGON-V: Detection and Recognition of Airplane Goals with Navigational Visualization",
+            "authors": "Christabel Wayllace, Sunwoo Ha, Yuchen Han, Jiaming Hu, Shayan Monadjemi, William Yeoh, Alvitta Ottley",
+            "venue": "AAAI. 2020."
+        }
+    ]
+}
