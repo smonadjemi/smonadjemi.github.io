@@ -9,7 +9,7 @@ import Publication from './single_publication'
 
 
 function Publications(){
-    var json = require('../data.json');
+    var json = require('../data/data.json');
     return(
 <>
 <Container className='section' id='publications'>
