@@ -27,7 +27,7 @@ function About() {
                             <p class="mb-5">I am a Ph.D. candidate in the <a href="http://visualdata.wustl.edu/" target="_blank">Visual Data Analysis Group</a> at Washington University in St. Louis. My research interests revolve around Visual Analytics and Machine Learning. My co-advisors are Drs. <a href={'https://engineering.wustl.edu/faculty/Alvitta-Ottley.html'} target={'_blank'}>Alvitta Ottley</a> and <a href="https://www.cse.wustl.edu/~garnett/" target="_blank">Roman Garnett</a>.</p>
                             <p class="mb-5">Before joining WashU, I attended the University of Texas in Dallas to study Computer Science with a minor in Mathematics.</p>
 
-                            <a className='social' href="https://www.linkedin.com/in/shayanmonadjemi/" target="_blank">
+                            <a className='social' href="https://www.linkedin.com/in/smonadjemi/" target="_blank">
                                 <FontAwesomeIcon icon={faLinkedinIn}></FontAwesomeIcon>
                             </a>
                             <a className='social' href="https://github.com/smonadjemi" target="_blank">
