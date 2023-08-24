@@ -3,6 +3,10 @@
     color: white;
 }
 
+.container {
+    max-width: 900px;
+}
+
 .profile-img {
     max-height: 100%;
     max-width: 100%;
@@ -34,16 +38,32 @@
     padding: 10px;
 }
 
-Code {
+code {
     color: inherit;
+    display: block;
     width: 100%;
+}
 
+.about-line {
+    width: 100%;
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+
+.name {
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.email {
+    margin-bottom: 15px;
 }
 
 .social {
     padding: 5px;
-    margin: 1px;
     margin-right: 5px;
+    margin-top: 50px;
     background-color: #414040;
     border-radius: 100%;
     color: white;

@@ -15,7 +15,8 @@ function NavBar(){
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
   <Nav className="justify-content-center m-auto" activeKey="/home">
-      <Nav.Link href="#about">About</Nav.Link>
+      <Nav.Link href="#home">Home</Nav.Link>
+      <Nav.Link href="#news">News</Nav.Link>
       <Nav.Link href="#publications">Publications</Nav.Link>
       <Nav.Link href="#teaching">Teaching</Nav.Link>
       <Nav.Link href="#cv">CV</Nav.Link>
