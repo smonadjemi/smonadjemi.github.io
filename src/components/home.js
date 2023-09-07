@@ -21,7 +21,7 @@ function Home() {
 
                     <Col className='padding' lg={{span: 7, order: 1}}>
                         <p className="about-line name">Shayan Monadjemi</p>
-                        <code className="about-line email">monadjemi [at] wustl [dot] edu</code>
+                        <code className="about-line email">monadjemis [at] ornl [dot] gov</code>
 
                         <p className="mb-0 about-line">Visual Analytics Research Scientist</p>
                         <p className="mb-0 about-line">Cyber Resilience and Intelligence Division</p>

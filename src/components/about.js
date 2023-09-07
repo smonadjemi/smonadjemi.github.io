@@ -18,12 +18,12 @@ function About() {
 
                 <Row className='resume-comp'>
 
-                    <p class="mb-5">I completed my PhD as a member of the <a href="http://visualdata.wustl.edu/"
+                    <p class="mb-5">I completed my PhD in 2023 as a member of the <a href="http://visualdata.wustl.edu/"
                                                                              target="_blank">Visual Interface and
                         Behavior Exploration (VIBE) Lab</a> at Washington University in St. Louis under the supervision of
                         Drs. <a href={'https://engineering.wustl.edu/faculty/Alvitta-Ottley.html'} target={'_blank'}>Alvitta
                             Ottley</a> and <a href="https://www.cse.wustl.edu/~garnett/" target="_blank">Roman
-                            Garnett</a> in 2023.
+                            Garnett</a>.
                         While in graduate school, I worked with the <a
                             href="https://www.nasa.gov/intelligent-systems-division" target="_blank"> Intelligent
                             Systems Division </a> at NASA Ames Research Center as a pathways intern.

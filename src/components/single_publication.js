@@ -10,7 +10,7 @@ import { faGraduationCap } from '@fortawesome/free-solid-svg-icons'
 function Publication(props){
     return(
 <>
-    <Row className='resume-comp'>
+    <Row className='single-publication'>
         <Col lg={12}>
             <div>{props.publication.title}</div>
             <div className='text-muted'>{props.publication.authors}</div>

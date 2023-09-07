@@ -4,7 +4,7 @@
 }
 
 .container {
-    max-width: 900px;
+    max-width: 1000px;
 }
 
 .profile-img {
@@ -32,6 +32,17 @@
     margin: 20px;
     padding: 10px;
     text-align: justify;
+}
+
+.single-publication {
+    margin: 20px;
+    padding: 10px;
+    text-align: justify;
+    cursor: default;
+}
+
+.single-publication:hover {
+    background-color: #F9F9F9;
 }
 
 .padding {
