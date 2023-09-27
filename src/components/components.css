@@ -96,3 +96,9 @@ code {
 hr {
     margin-bottom: 0px;
 }
+
+.pub-link {
+    font-size: small;
+    padding-left: 10px;
+    padding-right: 10px;
+}

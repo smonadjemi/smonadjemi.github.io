@@ -1,24 +1,93 @@
 {
     "publications": [
+
         {
-            "title": "ARRT Development for the Upcoming Human Exploration Missions",
-            "authors": "Shaowen Hu, Shayan Monadjemi, Janet Barzilla, E. Semones",
-            "venue": "Space Weather. 2020."
+            "title": "Human-Computer Collaboration for Visual Analytics: an Agent-based Framework",
+            "authors": "Shayan Monadjemi, Mengtian Guo, David Gotz, Roman Garnett, Alvitta Ottley",
+            "venue": "Computer Graphics Forum (Presented at the EuroVis Conference)",
+            "year": 2023,
+            "paper_tag": "Full Paper",
+            "links": {
+                "Manuscript": "https://arxiv.org/pdf/2304.09415"
+            } 
         },
 
-        {"title": "Active Visual Analytics: Assisted Data Discovery in Interactive Visualizations via Active Search", 
-            "authors": "Shayan Monadjemi, Quan Nguyen, Henry Chai, Roman Garnett, Alvitta Ottley",
-            "venue": "arXiv preprint. 2020."},
+        {
+            "title": "Guided Data Discovery in Interactive Visualizations via Active Search",
+            "authors": "Shayan Monadjemi, Sunwoo Ha, Quan Nguyen, Henry Chai, Roman Garnett, Alvitta Ottley",
+            "venue": "IEEE Visualization and Visual Analytics (Presented at the VIS Conference)",
+            "year": 2022,
+            "paper_tag": "Short Paper",
+            "links": {
+                "Manuscript": "https://ieeexplore.ieee.org/abstract/document/9973212",
+                "Repository": "https://github.com/washuvis/vis2022guideddiscovery"
+            } 
+        },
+
+        {
+            "title": "A Unified Comparison of User Modeling Techniques for Data Interaction Prediction and Exploration Bias",
+            "authors": "Sunwoo Ha, Shayan Monadjemi, Roman Garnett, Alvitta Ottley",
+            "venue": "IEEE Transactions on Visualization and Computer Graphics (Presented at the VIS Conference)",
+            "year": 2022,
+            "paper_tag": "Full Paper",
+            "links": {
+                "Manuscript": "https://ieeexplore.ieee.org/abstract/document/9903515",
+                "Repository": "https://github.com/washuvis/vis2022usermodels"
+            } 
+        },
+
+        {
+            "title": "A Grammar-Based Approach for Applying Visualization Taxonomies to Interaction Logs",
+            "authors": "Sneha Gathani, Shayan Monadjemi, Alvitta Ottley, Leilani Battle",
+            "venue": "Computer Graphics Forum (Presented at the EuroVis Conference)",
+            "year": 2022,
+            "paper_tag": "Full Paper",
+            "links": {
+                "Manuscript": "https://diglib.eg.org/xmlui/bitstream/handle/10.1111/cgf14557/v41i3pp489-500.pdf?sequence=1&isAllowed=y",
+                "Repository": "https://osf.io/s3ucr/?view_only=aa0d8632ad1c4fe09faea9869fd5b977"
+            } 
+        },
 
         {
             "title": "Competing Models: Inferring Exploration Patterns and Information Relevance via Bayesian Model Selection",
             "authors": "Shayan Monadjemi, Roman Garnett, Alvitta Ottley",
-            "venue": "IEEE Tranactions on Visualization and Computer Graphics (TVCG). 2020."
+            "venue": "IEEE Tranactions on Visualization and Computer Graphics (Presented at the VIS Conference)",
+            "year": 2020,
+            "paper_tag": "Full Paper",
+            "links": {
+                "Manuscript": "https://arxiv.org/pdf/2009.06042.pdf"
+            } 
         },
+
+        {
+            "title": "Acute Radiation Risks Tool (ARRT) Development for the Upcoming Human Exploration Mission",
+            "authors": "Shaowen Hu, Shayan Monadjemi, Janet Barzilla, Edward Semones",
+            "venue": "AGU Space Weather Journal",
+            "year": 2020,
+            "paper_tag": "Full Paper",
+            "links": {
+                "Manuscript": "https://doi.org/10.1002/essoar.10503672.1"
+            } 
+        },
+
         {
             "title": "DRAGON-V: Detection and Recognition of Airplane Goals with Navigational Visualization",
             "authors": "Christabel Wayllace, Sunwoo Ha, Yuchen Han, Jiaming Hu, Shayan Monadjemi, William Yeoh, Alvitta Ottley",
-            "venue": "AAAI. 2020."
+            "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+            "year": 2020,
+            "paper_tag": "Workshop Paper",
+            "links": {
+                "Manuscript": "https://doi.org/10.1609/aaai.v34i09.7108"
+            } 
+        },
+
+        {
+            "title": "User Interaction Modeling through Time and Data Space",
+            "authors": "Shayan Monadjemi, Roman Garnett, Alvitta Ottley",
+            "venue": "IEEE Conference on Visualization and Visual Analytics",
+            "year": 2019,
+            "paper_tag": "Poster",
+            "links": {} 
         }
     ]
 }
