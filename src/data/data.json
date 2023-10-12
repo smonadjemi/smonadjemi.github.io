@@ -9,7 +9,20 @@
             "paper_tag": "Full Paper",
             "links": {
                 "Manuscript": "https://arxiv.org/pdf/2304.09415"
-            } 
+            },
+            "selected": true
+        },
+
+        {
+            "title": "Monitoring Airspace Complexity and Determining Contributing Factors",
+            "authors": "Daniel I. Weckler, Bryan L. Matthews, Shayan Monadjemi, Shawn Wolfe, Nikunj Oza",
+            "venue": "American Institute of Aeronautics and Astronautics (AAIA) SCITECH Forum",
+            "year": 2023,
+            "paper_tag": "Full Paper",
+            "links": {
+                "Manuscript": "https://ntrs.nasa.gov/api/citations/20220017651/downloads/AIAA_SciTech_2023_Airspace_Complexity_Final-Draft.pdf"
+            },
+            "selected": false
         },
 
         {
@@ -21,7 +34,8 @@
             "links": {
                 "Manuscript": "https://ieeexplore.ieee.org/abstract/document/9973212",
                 "Repository": "https://github.com/washuvis/vis2022guideddiscovery"
-            } 
+            },
+            "selected": true 
         },
 
         {
@@ -33,7 +47,8 @@
             "links": {
                 "Manuscript": "https://ieeexplore.ieee.org/abstract/document/9903515",
                 "Repository": "https://github.com/washuvis/vis2022usermodels"
-            } 
+            },
+            "selected": true 
         },
 
         {
@@ -45,7 +60,8 @@
             "links": {
                 "Manuscript": "https://diglib.eg.org/xmlui/bitstream/handle/10.1111/cgf14557/v41i3pp489-500.pdf?sequence=1&isAllowed=y",
                 "Repository": "https://osf.io/s3ucr/?view_only=aa0d8632ad1c4fe09faea9869fd5b977"
-            } 
+            } ,
+            "selected": true
         },
 
         {
@@ -56,7 +72,8 @@
             "paper_tag": "Full Paper",
             "links": {
                 "Manuscript": "https://arxiv.org/pdf/2009.06042.pdf"
-            } 
+            } ,
+            "selected": true
         },
 
         {
@@ -67,7 +84,8 @@
             "paper_tag": "Full Paper",
             "links": {
                 "Manuscript": "https://doi.org/10.1002/essoar.10503672.1"
-            } 
+            } ,
+            "selected": false
         },
 
         {
@@ -78,7 +96,8 @@
             "paper_tag": "Workshop Paper",
             "links": {
                 "Manuscript": "https://doi.org/10.1609/aaai.v34i09.7108"
-            } 
+            },
+            "selected": false 
         },
 
         {
@@ -87,7 +106,8 @@
             "venue": "IEEE Conference on Visualization and Visual Analytics",
             "year": 2019,
             "paper_tag": "Poster",
-            "links": {} 
+            "links": {},
+            "selected": false
         }
     ]
 }

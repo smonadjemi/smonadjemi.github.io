@@ -1,7 +1,6 @@
 import {Navbar, Button, FormControl, Nav, Form, NavDropdown, Card, Container, Row, Col, Image} from 'react-bootstrap'
 import React from 'react';
 import './components.css'
-import img from '../data/img.JPG'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faLinkedin, faGithub, faLinkedinIn} from '@fortawesome/free-brands-svg-icons'
 import {faGraduationCap} from '@fortawesome/free-solid-svg-icons'
@@ -16,7 +15,7 @@ function Teaching() {
                         <Row className='resume-comp'>
                             <h3 class="mb-0">Teaching</h3>
                         </Row>
-                        <Row className='resume-comp padding'>
+                        <Row className='resume-comp resume-comp-content'>
                             <Col lg={12}>
                                 <p>I discovered my passion towards teaching in early high school years while volunteering for after-school tutoring programs. Inspired by the rewarding moments of helping others grasp concepts, I decided to pursue teaching opportunities in my undergraduate years. While at UT Dallas, I joined the <a href={'https://studentsuccess.utdallas.edu/'} target={'_blank'}>Student
                                     Success Center</a> as a math peer tutor. Working for the peer tutoring program, my job responsibilities during my three-year career were to tutor diverse groups of students in algebra, calculus, and linear algebra. After one year of tutoring, I was promoted to a team leader with the additional responsibilities of hosting

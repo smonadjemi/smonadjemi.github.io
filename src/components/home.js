@@ -1,27 +1,26 @@
-import {Navbar, Button, FormControl, Nav, Form, NavDropdown, Card, Container, Row, Col, Image} from 'react-bootstrap'
+import { Navbar, Button, FormControl, Nav, Form, NavDropdown, Card, Container, Row, Col, Image } from 'react-bootstrap'
 import React from 'react';
 import './components.css'
-import img from '../data/img.JPG'
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faLinkedin, faGithub, faLinkedinIn} from '@fortawesome/free-brands-svg-icons'
-import {faGraduationCap} from '@fortawesome/free-solid-svg-icons'
+import img from '../data/img.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLinkedin, faGithub, faLinkedinIn, faGoogle } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope, faGraduationCap, faMailBulk } from '@fortawesome/free-solid-svg-icons'
 
 
 function Home() {
     return (
         <>
             <Container className='section' id='home'>
-                <Row className='resume-comp'>
+                <Row className='resume-comp align-items-center'>
 
-                    <Col className='profile-img-container' lg={{span: 5, order: 2}}>
+                    <Col className='profile-img-container' lg={{ span: 4, order: 2 }}>
                         <Row className='padding profile-img'>
                             <Image className='profile-img' src={img}></Image>
                         </Row>
                     </Col>
 
-                    <Col className='padding' lg={{span: 7, order: 1}}>
+                    <Col className='padding' lg={{ span: 8, order: 1 }}>
                         <p className="about-line name">Shayan Monadjemi</p>
-                        <code className="about-line email">monadjemis [at] ornl [dot] gov</code>
 
                         <p className="mb-0 about-line">Visual Analytics Research Scientist</p>
                         <p className="mb-0 about-line">Cyber Resilience and Intelligence Division</p>
@@ -29,7 +28,9 @@ function Home() {
                             Laboratory</a></p>
 
 
-
+                        <a className='social' href="mailto:monadjemi@wustl.edu" target="_blank">
+                            <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
+                        </a>
                         <a className='social' href="https://www.linkedin.com/in/smonadjemi/" target="_blank">
                             <FontAwesomeIcon icon={faLinkedinIn}></FontAwesomeIcon>
                         </a>
@@ -38,8 +39,8 @@ function Home() {
                         </a>
 
                         <a className='social' href="https://scholar.google.com/citations?user=OR02C9QAAAAJ&hl=en&oi=ao"
-                           target="_blank">
-                            <FontAwesomeIcon icon={faGraduationCap}></FontAwesomeIcon>
+                            target="_blank">
+                            <FontAwesomeIcon icon={faGoogle}></FontAwesomeIcon>
                         </a>
 
                     </Col>

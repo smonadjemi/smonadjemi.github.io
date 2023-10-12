@@ -1,10 +1,10 @@
-.nav-center{
-    background-color: #414040;
-    color: white;
+
+.nav{
+    background-color: #171717;
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 950px;
 }
 
 .profile-img {
@@ -29,9 +29,16 @@
 }
 
 .resume-comp {
-    margin: 20px;
-    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 10px ;
     text-align: justify;
+}
+
+.resume-comp-content {
+    margin-left: 20px;
 }
 
 .single-publication {
@@ -42,11 +49,11 @@
 }
 
 .single-publication:hover {
-    background-color: #F9F9F9;
+    background-color: rgba(0, 0, 0, 0.05);
 }
 
 .padding {
-    padding: 10px;
+    padding: 0px;
 }
 
 code {
@@ -62,7 +69,7 @@ code {
 }
 
 .name {
-    font-size: x-large;
+    font-size: xx-large;
     font-weight: bold;
     margin-bottom: 2px;
 }

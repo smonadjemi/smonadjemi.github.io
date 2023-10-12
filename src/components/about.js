@@ -1,7 +1,6 @@
 import {Navbar, Button, FormControl, Nav, Form, NavDropdown, Card, Container, Row, Col, Image} from 'react-bootstrap'
 import React from 'react';
 import './components.css'
-import img from '../data/img.JPG'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faLinkedin, faGithub, faLinkedinIn} from '@fortawesome/free-brands-svg-icons'
 import {faGraduationCap} from '@fortawesome/free-solid-svg-icons'
@@ -16,7 +15,7 @@ function About() {
                     <h3 class="mb-0">About</h3>
                 </Row>
 
-                <Row className='resume-comp'>
+                <Row className='resume-comp resume-comp-content'>
 
                     <p class="mb-5">I completed my PhD in 2023 as a member of the <a href="http://visualdata.wustl.edu/"
                                                                              target="_blank">Visual Interface and
