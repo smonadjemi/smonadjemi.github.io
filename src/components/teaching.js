@@ -1,9 +1,6 @@
-import {Navbar, Button, FormControl, Nav, Form, NavDropdown, Card, Container, Row, Col, Image} from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 import React from 'react';
 import './components.css'
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faLinkedin, faGithub, faLinkedinIn} from '@fortawesome/free-brands-svg-icons'
-import {faGraduationCap} from '@fortawesome/free-solid-svg-icons'
 
 
 function Teaching() {

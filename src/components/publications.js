@@ -1,31 +1,36 @@
-import {Navbar, Button, FormControl, Nav, Form, NavDropdown, Card, Container, Row, Col, Image} from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 import React from 'react';
 import './components.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin, faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
-import { faGraduationCap } from '@fortawesome/free-solid-svg-icons'
 import Publication from './single_publication'
 
 
-function Publications(){
+function Publications(props) {
     var json = require('../data/data.json');
-    return(
-<>
-<Container className='section' id='publications'>
-        <Row>
-            <Col lg={12}>
-                <Row className='resume-comp'>
-                <h3 class="mb-0">Selected Publications</h3>
-                </Row>
-                {json['publications'].map(x => (
-                    <Publication publication={x}></Publication>
-                ))}
 
-            </Col>
-        </Row>
-        <hr></hr>
-</Container>
-</>
+    var head = 'Publications'
+    if (props.selected_only) {
+        head = 'Selected Publications'
+    }
+    return (
+        <>
+            <Container className='section' id='publications'>
+                <Row>
+                    <Col lg={12}>
+                        <Row className='resume-comp'>
+                            <h3 class="mb-0">{head}</h3>
+                        </Row>
+                        {json['publications'].map(x => (
+                            <Publication
+                                selected_only={props.selected_only}
+                                publication={x}
+                            />
+                        ))}
+
+                    </Col>
+                </Row>
+                <hr></hr>
+            </Container>
+        </>
     )
 }
 

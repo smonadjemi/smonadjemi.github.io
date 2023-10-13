@@ -84,7 +84,7 @@ code {
     margin-top: 50px;
     background-color: #414040;
     border-radius: 100%;
-    color: white;
+    color: white !important;
     text-align: center;
     width: 35px;
     height: 35px;
@@ -108,4 +108,22 @@ hr {
     font-size: small;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.dark a {
+    color: #8ab4f8;
+}
+
+.dark hr {
+    border: 0.1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+hr {
+    border: 0.1px solid rgba(0, 0, 0, 0.2) !important;
+}
+
+.current_page {
+    font-weight:bolder;
+    
+    color: white !important;
 }

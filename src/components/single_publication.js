@@ -1,22 +1,19 @@
-import { Navbar, Button, FormControl, Nav, Form, NavDropdown, Card, Container, Row, Col, Image } from 'react-bootstrap'
+import { Row, Col } from 'react-bootstrap'
 import React from 'react';
 import './components.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin, faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
-import { faGraduationCap } from '@fortawesome/free-solid-svg-icons'
 
 
 function Publication(props) {
     var authors_list = props.publication.authors.split(', ')
     var authors_list_string = authors_list.map((x, i) => {
-        if (x == 'Shayan Monadjemi') {
-            if (i == authors_list.length - 1)
+        if (x === 'Shayan Monadjemi') {
+            if (i === authors_list.length - 1)
                 return <><b>{x}</b></>
             else
                 return <><b>{x}</b>, </>
         }
         else {
-            if (i == authors_list.length - 1)
+            if (i === authors_list.length - 1)
                 return <>{x}</>
             else
                 return <>{x}, </>
@@ -24,7 +21,7 @@ function Publication(props) {
 
     })
 
-    if (props.publication.selected) {
+    if (props.publication.selected || !props.selected_only) {
 
         return (
             <>

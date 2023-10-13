@@ -1,27 +1,30 @@
 import React, { useState, useEffect } from 'react';
 import { useMediaQuery } from 'react-responsive';
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './components/navbar'
-import Home from './components/home'
-import About from './components/about'
-import Publications from './components/publications'
-import CV from './components/cv'
-import Teaching from './components/teaching'
+import Home from './pages/Home';
+import PublicationsPage from './pages/Publications_Page';
+import TeachingPage from './pages/Teaching_Page';
+import CV from './pages/CV';
 
 function App() {
 
-    const [isDark, setIsDark] = useState(true);
+    const [isDark, setIsDark] = useState(window.matchMedia('(prefers-color-scheme: dark)').matches);
+    const [currentPage, setCurrentPage] = useState('home')
 
-    const systemPrefersDark = useMediaQuery(
+
+    const systemIsDark = useMediaQuery(
         {
             query: "(prefers-color-scheme: dark)",
         },
         undefined,
-        (isSystemDark) => setIsDark(isSystemDark)
+        (isSystemDark) => {
+            console.log('is system dark', isSystemDark)
+            setIsDark(isSystemDark)
+            console.log(isSystemDark)
+        }
     );
-
 
     useEffect(() => {
         if (isDark) {
@@ -31,15 +34,32 @@ function App() {
         }
     }, [isDark]);
 
+    var content = <Home />
+    if (currentPage == 'publications')
+    {
+        content = <PublicationsPage />
+    }
+    else if (currentPage == 'teaching')
+    {
+        content = <TeachingPage />
+    }
+    else if (currentPage == 'cv')
+    {
+        content = <CV />
+    }
+
     return (
-        <div className="App">
-            <NavBar isDark={isDark} setIsDark={setIsDark}></NavBar>
-            <Home></Home>
-            <About></About>
-            <Publications></Publications>
-            <Teaching></Teaching>
-            <CV></CV>
-        </div>
+        <>
+            <NavBar
+                isDark={isDark}
+                setIsDark={setIsDark}
+                currentPage={currentPage}
+                setCurrentPage={setCurrentPage}
+            />
+
+            {content}
+        </>
+
     );
 }
 

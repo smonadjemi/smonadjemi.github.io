@@ -1,13 +1,13 @@
-import { Navbar, Button, FormControl, Nav, Form, NavDropdown, Card, Container, Row, Col, Image } from 'react-bootstrap'
+import { Container, Row, Col, Image } from 'react-bootstrap'
 import React from 'react';
-import './components.css'
+import '../components/components.css'
 import img from '../data/img.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faGithub, faLinkedinIn, faGoogle } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope, faGraduationCap, faMailBulk } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 
-function Home() {
+function Profile() {
     return (
         <>
             <Container className='section' id='home'>
@@ -25,10 +25,10 @@ function Home() {
                         <p className="mb-0 about-line">Visual Analytics Research Scientist</p>
                         <p className="mb-0 about-line">Cyber Resilience and Intelligence Division</p>
                         <p className="mb-0 about-line"><a href="https://www.ornl.gov" target="_blank">Oak Ridge National
-                            Laboratory</a></p>
+                            Laboratory (ORNL)</a></p>
 
 
-                        <a className='social' href="mailto:monadjemi@wustl.edu" target="_blank">
+                        <a className='social' href="mailto:monadjemis@ornl.gov" target="_blank">
                             <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
                         </a>
                         <a className='social' href="https://www.linkedin.com/in/smonadjemi/" target="_blank">
@@ -51,4 +51,4 @@ function Home() {
     )
 }
 
-export default Home;
+export default Profile;
